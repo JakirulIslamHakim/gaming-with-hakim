@@ -1,0 +1,66 @@
+@media screen and ( max-width:576px) {
+    body{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .nav-container{
+        flex-direction: column;
+    }
+    .contact-conainer ul{
+        flex-direction: column;
+    }
+    .contact-conainer ul li{
+        margin: 20px 0px;
+    }
+
+    .header-content-conainer{
+        flex-direction: column;
+    }
+    .header-content{
+        width: 100%;
+    }
+    .header-img {
+        width: 100%;
+    
+    }
+    .we-are-gamer-cotainer{
+        flex-direction: column;
+        margin: 50px 0px;
+    }
+    .we-are-gamer-img {
+        width: 100%;
+        
+    }
+    .we-are-gamer-content {
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    
+    }
+
+
+    .online-img-content{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .play-instanly-section{
+        flex-direction: column;
+    }
+    .play-instanly-cotainer{
+        width: 100%;
+        text-align: center;
+    }
+    .play-instanly-img-cotainer {
+        width: 70%;
+        margin: 0 auto;
+
+    }
+    .second-img img {
+        width: 40%;
+
+    }
+    .second-img {
+        left: -50px;
+        bottom: -40px ;
+    }
+    
+}
